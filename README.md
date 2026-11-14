@@ -76,3 +76,25 @@ sudo systemctl enable cosmic-greeter
 ```
 
 Após executar todos os passos acima, reinicie o computador (`sudo reboot`). O sistema deverá iniciar diretamente na tela de login gráfica do COSMIC.
+
+⚡ 4. Execução Automatizada via Script (Alternativa)
+
+Para facilitar o processo, este repositório inclui o script fix_cosmic_nvidia.sh, que executa todas as etapas da solução definitiva de forma automática.
+
+Como executar o script no Pop!_OS
+
+Acesse o terminal: Abra o terminal na pasta onde o arquivo fix_cosmic_nvidia.sh foi salvo (ou acesse o modo texto via Ctrl + Alt + F4 caso esteja na tela preta e navegue até o diretório do arquivo).
+
+Conceda permissão de execução ao arquivo:
+
+chmod +x fix_cosmic_nvidia.sh
+
+
+Execute o script:
+
+./fix_cosmic_nvidia.sh
+
+
+Reinicie o sistema: Após a conclusão de todas as etapas, reinicie o computador para aplicar as alterações:
+
+sudo reboot
